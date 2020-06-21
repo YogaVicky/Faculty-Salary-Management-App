@@ -163,7 +163,7 @@ The above copyright notice and this permission notice shall be included in all c
 				</div>
 			</nav>
 			<!-- End Navbar -->
-			
+
 			<div class="content">
 				<div class="container-fluid">
 					<div class="row">
@@ -171,7 +171,36 @@ The above copyright notice and this permission notice shall be included in all c
 							<div class="card">
 								<div class="card-header-primary">
 									<h4 class="card-title">Select the month</h4>
-									
+								</div>
+								<div class="card-body">
+									<form class="form-horizontal" action="/faculty" method="POST"
+										enctype="multipart/form-data" target="_blank">
+										<div class="form-group">
+											<center><label class="control-label col-sm-2" for="id"></label>
+												<div class="col-sm-10">
+													<input type="text" class="form-control" id="email"
+														placeholder="Enter Employee ID - Example - 1234" id="id"
+														required="required">
+												</div>
+											</center>
+										</div>
+										<div class="form-group">
+											<center><label class="control-label col-sm-2" for="name"></label>
+												<div class="col-sm-10">
+													<input type="text" class="form-control" id="email"
+														placeholder="Enter Name" name="name" required="required">
+												</div>
+											</center>
+										</div>										
+										<div class="form-group">
+											<!-- <div class="align-items-center"> -->
+											<center>
+												<button type="submit" class="genric-btn primary"
+													style="font-size: medium;">Submit</button>
+											</center>
+											<!-- </div> -->
+										</div>
+									</form>
 								</div>
 							</div>
 						</div>
@@ -231,25 +260,28 @@ The above copyright notice and this permission notice shall be included in all c
 													<td>
 														Dakota Rice
 													</td>
-													<td >
+													<td>
 														$36,738
 													</td>
-													<td >
+													<td>
 														$36,738
 													</td>
-													<td >
+													<td>
 														$36,738
 													</td>
-													<td >
+													<td>
 														$36,738
 													</td>
-													<td >
+													<td>
 														$36,738
-													</td><td >
+													</td>
+													<td>
 														$36,738
-													</td><td >
+													</td>
+													<td>
 														$36,738
-													</td><td >
+													</td>
+													<td>
 														$36,738
 													</td>
 												</tr>
