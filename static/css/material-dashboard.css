@@ -13226,6 +13226,7 @@ fieldset[disabled][disabled] .has-rose .form-control,
 
 .bmd-form-group {
   position: relative;
+padding-top: 15px;
 }
 
 .bmd-form-group:not(.has-success):not(.has-danger) [class^='bmd-label'].bmd-label-floating,
@@ -13621,9 +13622,9 @@ select.form-control {
 }
 
 .form-group {
-  padding-bottom: 10px;
-  position: relative;
-  margin: 8px 0 0;
+  padding-top: 2px;
+position: relative;
+margin: 0px;
 }
 
 .form-group .bmd-label-static {
@@ -17714,7 +17715,7 @@ html[dir="rtl"] .form-check .form-check-sign .check:before {
 }
 
 .card .card-body .form-group {
-  margin: 8px 0 0;
+  margin: 0px;
 }
 
 .card .card-header {
