@@ -654,7 +654,7 @@ label {
 }
 
 button {
-  border-radius: 0;
+  border-radius: 5px;
 }
 
 button:focus {
@@ -12047,7 +12047,7 @@ fieldset[disabled] .is-focused .switch label:focus {
 }
 
 .form-control:invalid {
-  background-image: linear-gradient(to top, #f44336 2px, rgba(244, 67, 54, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+  background-image: linear-gradient(to top, #f44336 2px, rgba(244, 67, 54, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(64, 170, 36,0.1) 1px);
 }
 
 .form-control:read-only {
